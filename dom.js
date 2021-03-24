@@ -19,9 +19,7 @@ form.addEventListener("submit", function(e){
    bottomTextArea.innerHTML = bottomText.value;
    memeImg.src = document.getElementById("url").value;
  
-   //change font size if string exceeds a certain length
-   console.log(topText.value.length); //test
- 
+   //change font size if string exceeds a certain length 
    if(topText.value.length > 25){
        topTextArea.style.fontSize = "45px";
    }
