@@ -34,7 +34,6 @@ html {
  }
   
  .memes-here {
-    /*position:absolute;*/
     display: inline-block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
@@ -45,24 +44,16 @@ html {
   
  .newMeme {
     display: inline-block;
-    /*margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    justify-content: center;
-    align-content: center;*/
     position: relative;
     text-align: center;
     overflow-wrap: break-word;
-    /*border: 2px solid rgb(13, 255, 0);*/
   }
    .topTextArea{
     position: absolute;
-    /*display: inline-block;*/
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
     text-align: center;
     align-content: center;
-    /*border: 2px solid yellow;*/
     overflow-wrap: break-word;
     word-break: break-all;
     margin-top: 5px;
@@ -74,12 +65,10 @@ html {
   }
    .bottomTextArea{
     position: absolute;
-    /*display: inline-block;*/
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
     text-align: center;
     align-content: center;
-    /*border: 2px solid yellow;*/
     overflow-wrap: break-word;
     word-break: break-all;
     margin-top: 5px;
@@ -95,7 +84,6 @@ html {
     font-family:'Courier New', Courier, monospace;
     max-width: 60px;
     font-size: 90%;
-    /*height:20px;*/
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     z-index:4;
